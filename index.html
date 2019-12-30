@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>our world</title>
+    <link rel="shortcut icon" type="image/png" href="images/fav.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/twentytwenty.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="scripts/jquery.event.move.js"></script>
+    <script src="scripts/jquery.twentytwenty.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(".box[data-orientatation!='vertical']").twentytwenty({
+                default_offset_pct: 0.5
+            })
+        })
+
+    </script>
+</head>
+
+<body>
+
+    <div class="box">
+        <img src="images/image1.jpg" alt="">
+        <img src="images/image2.jpg" alt="">
+    </div>
+
+</body>
+
+</html>
